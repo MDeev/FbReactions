@@ -1,0 +1,5 @@
+.header{
+	@include p(20px);
+	@include fontSize(22);
+	@include mb(15px);
+}

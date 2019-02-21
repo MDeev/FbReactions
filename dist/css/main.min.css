@@ -1,0 +1,1028 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+figcaption,
+figure,
+main {
+  display: block; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; }
+
+b,
+strong {
+  font-weight: inherit; }
+
+b,
+strong {
+  font-weight: bolder; }
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+audio,
+video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+img {
+  border-style: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0; }
+
+button,
+input {
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal; }
+
+progress {
+  display: inline-block;
+  vertical-align: baseline; }
+
+textarea {
+  overflow: auto; }
+
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0; }
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px; }
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit; }
+
+details,
+menu {
+  display: block; }
+
+summary {
+  display: list-item; }
+
+canvas {
+  display: inline-block; }
+
+template {
+  display: none; }
+
+[hidden] {
+  display: none; }
+
+/* Phones */
+/* Tablets */
+/* laptops */
+/* Desktops */
+/*
+
+@media (max-width: 767px) {} 
+
+@media (min-width: 768px) {} 
+
+@media (min-width: 992px) {} 
+
+@media (min-width: 1200px) {} 
+
+*/
+html, body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  position: relative; }
+
+a {
+  text-decoration: none;
+  outline: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
+
+body .fb-reactions .content .reactions .reaction .haha > div:first-of-type span, body .fb-reactions .content .reactions .reaction .haha > div:nth-of-type(2) span, body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div span, body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div span {
+  display: block; }
+
+body .fb-reactions .content .reactions, body .fb-reactions .content .reactions .reaction, body .fb-reactions .content .reactions .reaction .haha > div:first-of-type, body .fb-reactions .content .reactions .reaction .haha > div:nth-of-type(2), body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div, body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div, body .fb-reactions .content .reactions .reaction .angry > div:first-of-type span, body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) span {
+  display: inline-block; }
+
+body {
+  font-family: sans-serif, Arial, monospace; }
+  body .fb-reactions {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: #FFF;
+    background-color: #4167b4;
+    overflow-y: auto;
+    overflow-x: hidden; }
+    body .fb-reactions .header {
+      padding: 20px;
+      font-size: 22px;
+      margin-bottom: 15pxpx; }
+    body .fb-reactions .content {
+      width: 100%; }
+      @media (min-width: 768px) {
+        body .fb-reactions .content {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%); } }
+      body .fb-reactions .content .reactions {
+        padding: 15px 35px;
+        margin-right: 15px;
+        margin-left: 15px;
+        -webkit-border-radius: 90px;
+                border-radius: 90px;
+        background-color: #F1F1F1;
+        overflow: hidden; }
+        @media (max-width: 767px) {
+          body .fb-reactions .content .reactions {
+            margin-bottom: 45px;
+            -webkit-border-radius: 0;
+                    border-radius: 0; } }
+        body .fb-reactions .content .reactions .reaction .react {
+          width: 110px;
+          height: 110px;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          margin: 0 auto;
+          background-color: #ffdb67;
+          margin-right: 5px;
+          margin-left: 5px;
+          position: relative;
+          overflow: hidden;
+          cursor: pointer; }
+        body .fb-reactions .content .reactions .reaction .react-name {
+          margin-top: 10px;
+          color: #333; }
+          @media (max-width: 767px) {
+            body .fb-reactions .content .reactions .reaction .react-name {
+              margin-bottom: 15px; } }
+        body .fb-reactions .content .reactions .reaction .love {
+          position: relative;
+          background-color: #f65065; }
+          body .fb-reactions .content .reactions .reaction .love span {
+            position: absolute;
+            top: 58%;
+            left: 50%;
+            width: 40px;
+            height: 40px;
+            background-color: #FFF;
+            -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1);
+                -ms-transform: translate(-50%, -50%) rotate(45deg) scale(1);
+                    transform: translate(-50%, -50%) rotate(45deg) scale(1); }
+            body .fb-reactions .content .reactions .reaction .love span:before, body .fb-reactions .content .reactions .reaction .love span:after {
+              content: '';
+              position: absolute;
+              width: 40px;
+              height: 40px;
+              -webkit-border-radius: 50%;
+                      border-radius: 50%;
+              background-color: #FFF; }
+            body .fb-reactions .content .reactions .reaction .love span:before {
+              top: -20px;
+              right: 0; }
+            body .fb-reactions .content .reactions .reaction .love span:after {
+              top: 0;
+              left: -20px; }
+          body .fb-reactions .content .reactions .reaction .love:hover span {
+            -webkit-animation: 1s loveAnimation linear infinite;
+                    animation: 1s loveAnimation linear infinite; }
+        body .fb-reactions .content .reactions .reaction .haha > div {
+          position: absolute; }
+          body .fb-reactions .content .reactions .reaction .haha > div:first-of-type, body .fb-reactions .content .reactions .reaction .haha > div:nth-of-type(2) {
+            top: 29%; }
+            body .fb-reactions .content .reactions .reaction .haha > div:first-of-type span, body .fb-reactions .content .reactions .reaction .haha > div:nth-of-type(2) span {
+              background-color: #272d39;
+              width: 22px;
+              height: 5px;
+              -webkit-border-radius: 20px;
+                      border-radius: 20px; }
+              body .fb-reactions .content .reactions .reaction .haha > div:first-of-type span:last-of-type, body .fb-reactions .content .reactions .reaction .haha > div:nth-of-type(2) span:last-of-type {
+                margin-top: 3px; }
+          body .fb-reactions .content .reactions .reaction .haha > div:first-of-type {
+            left: 15%; }
+            body .fb-reactions .content .reactions .reaction .haha > div:first-of-type span:first-of-type {
+              -webkit-transform: rotate(25deg);
+                  -ms-transform: rotate(25deg);
+                      transform: rotate(25deg); }
+            body .fb-reactions .content .reactions .reaction .haha > div:first-of-type span:last-of-type {
+              -webkit-transform: rotate(-25deg);
+                  -ms-transform: rotate(-25deg);
+                      transform: rotate(-25deg);
+              margin-top: 2px; }
+          body .fb-reactions .content .reactions .reaction .haha > div:nth-of-type(2) {
+            right: 15%; }
+            body .fb-reactions .content .reactions .reaction .haha > div:nth-of-type(2) span:first-of-type {
+              -webkit-transform: rotate(-25deg);
+                  -ms-transform: rotate(-25deg);
+                      transform: rotate(-25deg); }
+            body .fb-reactions .content .reactions .reaction .haha > div:nth-of-type(2) span:last-of-type {
+              -webkit-transform: rotate(25deg);
+                  -ms-transform: rotate(25deg);
+                      transform: rotate(25deg);
+              margin-top: 2px; }
+          body .fb-reactions .content .reactions .reaction .haha > div:last-of-type {
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+            width: 85px;
+            height: 80px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            overflow: hidden;
+            background-image: -webkit-gradient(linear, left bottom, left top, color-stop(45%, #272d39), color-stop(45%, transparent));
+            background-image: -webkit-linear-gradient(bottom, #272d39 45%, transparent 45%);
+            background-image: -o-linear-gradient(bottom, #272d39 45%, transparent 45%);
+            background-image: linear-gradient(to top, #272d39 45%, transparent 45%); }
+            body .fb-reactions .content .reactions .reaction .haha > div:last-of-type:before {
+              content: '';
+              position: absolute;
+              top: 65%;
+              left: -10%;
+              width: 120%;
+              height: 100%;
+              -webkit-border-radius: 50%;
+                      border-radius: 50%;
+              background-color: #f65065; }
+        body .fb-reactions .content .reactions .reaction .haha:hover > div:first-of-type, body .fb-reactions .content .reactions .reaction .haha:hover > div:nth-of-type(2) {
+          -webkit-animation: 4s hahaAnimation1 linear infinite;
+                  animation: 4s hahaAnimation1 linear infinite; }
+        body .fb-reactions .content .reactions .reaction .haha:hover > div:last-of-type {
+          -webkit-animation: 4s hahaAnimation2 linear infinite;
+                  animation: 4s hahaAnimation2 linear infinite; }
+        body .fb-reactions .content .reactions .reaction .wow > div {
+          position: absolute; }
+          body .fb-reactions .content .reactions .reaction .wow > div:first-of-type {
+            left: 50%;
+            -webkit-transform: translate(-50%);
+                -ms-transform: translate(-50%);
+                    transform: translate(-50%);
+            width: 100%; }
+            body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div {
+              padding-top: 15px;
+              margin-right: 10px;
+              margin-left: 10px; }
+              body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div:first-of-type span:first-of-type {
+                -webkit-transform: rotate(-7deg);
+                    -ms-transform: rotate(-7deg);
+                        transform: rotate(-7deg); }
+              body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div:first-of-type span:last-of-type {
+                -webkit-transform: rotate(7deg);
+                    -ms-transform: rotate(7deg);
+                        transform: rotate(7deg); }
+              body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div:last-of-type span:first-of-type {
+                -webkit-transform: rotate(7deg);
+                    -ms-transform: rotate(7deg);
+                        transform: rotate(7deg); }
+              body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div:last-of-type span:last-of-type {
+                -webkit-transform: rotate(-7deg);
+                    -ms-transform: rotate(-7deg);
+                        transform: rotate(-7deg); }
+              body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div span:first-of-type {
+                width: 20px;
+                height: 20px;
+                -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                border: 5px solid;
+                border-color: #272d39 transparent transparent; }
+                body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div span:first-of-type:before, body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div span:first-of-type:after {
+                  content: '';
+                  position: absolute;
+                  top: -7%;
+                  width: 5px;
+                  height: 5px;
+                  -webkit-border-radius: 50%;
+                          border-radius: 50%;
+                  background-color: #272d39; }
+                body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div span:first-of-type:before {
+                  top: -7%;
+                  left: -6%; }
+                body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div span:first-of-type:after {
+                  right: -6%; }
+              body .fb-reactions .content .reactions .reaction .wow > div:first-of-type > div span:last-of-type {
+                width: 15px;
+                height: 22px;
+                -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                background-color: #272d39;
+                margin: -15px auto 0; }
+          body .fb-reactions .content .reactions .reaction .wow > div:last-of-type {
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%);
+                -ms-transform: translate(-50%);
+                    transform: translate(-50%);
+            width: 30px;
+            height: 42px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            background-color: #272d39; }
+        body .fb-reactions .content .reactions .reaction .wow:hover {
+          -webkit-animation: 4s wowAnimation1 linear infinite;
+                  animation: 4s wowAnimation1 linear infinite; }
+          body .fb-reactions .content .reactions .reaction .wow:hover > div:first-of-type > div:last-of-type {
+            -webkit-animation: 4s wowAnimation2 linear infinite;
+                    animation: 4s wowAnimation2 linear infinite; }
+          body .fb-reactions .content .reactions .reaction .wow:hover > div:first-of-type > div span:last-of-type {
+            -webkit-animation: 4s wowAnimation3 linear infinite, 3s Eyelashes ease infinite;
+                    animation: 4s wowAnimation3 linear infinite, 3s Eyelashes ease infinite; }
+          body .fb-reactions .content .reactions .reaction .wow:hover > div:last-of-type {
+            -webkit-animation: 4s wowAnimation4 linear infinite;
+                    animation: 4s wowAnimation4 linear infinite; }
+        body .fb-reactions .content .reactions .reaction .sad > div {
+          position: absolute;
+          margin-top: 25px; }
+          body .fb-reactions .content .reactions .reaction .sad > div:first-of-type {
+            left: 50%;
+            -webkit-transform: translate(-50%);
+                -ms-transform: translate(-50%);
+                    transform: translate(-50%);
+            width: 100%; }
+            body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div {
+              padding-top: 15px;
+              margin-right: 10px;
+              margin-left: 10px; }
+              body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div:first-of-type span:first-of-type {
+                -webkit-transform: rotate(-25deg);
+                    -ms-transform: rotate(-25deg);
+                        transform: rotate(-25deg); }
+              body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div:first-of-type span:last-of-type {
+                -webkit-transform: rotate(25deg);
+                    -ms-transform: rotate(25deg);
+                        transform: rotate(25deg); }
+              body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div:last-of-type span:first-of-type {
+                -webkit-transform: rotate(25deg);
+                    -ms-transform: rotate(25deg);
+                        transform: rotate(25deg); }
+              body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div:last-of-type span:last-of-type {
+                -webkit-transform: rotate(-25deg);
+                    -ms-transform: rotate(-25deg);
+                        transform: rotate(-25deg); }
+              body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div span:first-of-type {
+                width: 20px;
+                height: 20px;
+                -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                border: 5px solid;
+                border-color: #272d39 transparent transparent; }
+                body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div span:first-of-type:before, body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div span:first-of-type:after {
+                  content: '';
+                  position: absolute;
+                  top: -7%;
+                  width: 5px;
+                  height: 5px;
+                  -webkit-border-radius: 50%;
+                          border-radius: 50%;
+                  background-color: #272d39; }
+                body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div span:first-of-type:before {
+                  top: -7%;
+                  left: -6%; }
+                body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div span:first-of-type:after {
+                  right: -6%; }
+              body .fb-reactions .content .reactions .reaction .sad > div:first-of-type > div span:last-of-type {
+                width: 15px;
+                height: 15px;
+                -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                background-color: #272d39;
+                margin: -15px auto 0; }
+            body .fb-reactions .content .reactions .reaction .sad > div:first-of-type:before, body .fb-reactions .content .reactions .reaction .sad > div:first-of-type:after {
+              content: '';
+              position: absolute;
+              left: 71%; }
+            body .fb-reactions .content .reactions .reaction .sad > div:first-of-type:before {
+              bottom: -30%;
+              border-width: 0 5px 14px 5px;
+              border-style: solid;
+              border-color: transparent transparent #538dff transparent; }
+            body .fb-reactions .content .reactions .reaction .sad > div:first-of-type:after {
+              bottom: -42%;
+              width: 10px;
+              height: 10px;
+              -webkit-border-radius: 50%;
+                      border-radius: 50%;
+              background-color: #538dff; }
+          body .fb-reactions .content .reactions .reaction .sad > div:last-of-type {
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%);
+                -ms-transform: translate(-50%);
+                    transform: translate(-50%);
+            width: 40px;
+            height: 40px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            border: 5px solid;
+            border-color: #272d39 transparent transparent; }
+            body .fb-reactions .content .reactions .reaction .sad > div:last-of-type:before, body .fb-reactions .content .reactions .reaction .sad > div:last-of-type:after {
+              content: '';
+              position: absolute;
+              width: 5px;
+              height: 5px;
+              -webkit-border-radius: 50%;
+                      border-radius: 50%;
+              background-color: #272d39; }
+            body .fb-reactions .content .reactions .reaction .sad > div:last-of-type:before {
+              top: 4%;
+              left: 5%; }
+            body .fb-reactions .content .reactions .reaction .sad > div:last-of-type:after {
+              top: 6%;
+              right: 4%; }
+        body .fb-reactions .content .reactions .reaction .sad:hover > div:first-of-type {
+          -webkit-animation: 4s sadAnimation1 linear infinite;
+                  animation: 4s sadAnimation1 linear infinite; }
+          body .fb-reactions .content .reactions .reaction .sad:hover > div:first-of-type > div span:last-of-type {
+            -webkit-animation: 3s Eyelashes ease infinite;
+                    animation: 3s Eyelashes ease infinite; }
+        body .fb-reactions .content .reactions .reaction .sad:hover > div:first-of-type:before {
+          -webkit-animation: 4s sadAnimation2 linear infinite;
+                  animation: 4s sadAnimation2 linear infinite; }
+        body .fb-reactions .content .reactions .reaction .sad:hover > div:first-of-type:after {
+          -webkit-animation: 4s sadAnimation2 linear infinite, 4s sadAnimation3 linear infinite;
+                  animation: 4s sadAnimation2 linear infinite, 4s sadAnimation3 linear infinite; }
+        body .fb-reactions .content .reactions .reaction .sad:hover > div:last-of-type {
+          -webkit-animation: 4s sadAnimation4 linear infinite;
+                  animation: 4s sadAnimation4 linear infinite; }
+          body .fb-reactions .content .reactions .reaction .sad:hover > div:last-of-type:before {
+            -webkit-animation: 4s sadAnimation5 linear infinite;
+                    animation: 4s sadAnimation5 linear infinite; }
+          body .fb-reactions .content .reactions .reaction .sad:hover > div:last-of-type:after {
+            -webkit-animation: 4s sadAnimation6 linear infinite;
+                    animation: 4s sadAnimation6 linear infinite; }
+        body .fb-reactions .content .reactions .reaction .angry {
+          background-image: -webkit-gradient(linear, left bottom, left top, from(#ffdb67), to(#f65065));
+          background-image: -webkit-linear-gradient(bottom, #ffdb67, #f65065);
+          background-image: -o-linear-gradient(bottom, #ffdb67, #f65065);
+          background-image: linear-gradient(to top, #ffdb67, #f65065);
+          background-repeat: no-repeat;
+          background-position: 100% 120%;
+          -webkit-background-size: 100% 120%;
+                  background-size: 100% 120%; }
+          body .fb-reactions .content .reactions .reaction .angry > div {
+            position: absolute; }
+            body .fb-reactions .content .reactions .reaction .angry > div:first-of-type {
+              left: 7%;
+              -webkit-transform: rotate(15deg);
+                  -ms-transform: rotate(15deg);
+                      transform: rotate(15deg); }
+            body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) {
+              right: 7%;
+              -webkit-transform: rotate(-15deg);
+                  -ms-transform: rotate(-15deg);
+                      transform: rotate(-15deg); }
+            body .fb-reactions .content .reactions .reaction .angry > div:first-of-type, body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) {
+              top: 35%; }
+              body .fb-reactions .content .reactions .reaction .angry > div:first-of-type span, body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) span {
+                -webkit-border-radius: 50%;
+                        border-radius: 50%; }
+                body .fb-reactions .content .reactions .reaction .angry > div:first-of-type span:first-of-type, body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) span:first-of-type {
+                  width: 35px;
+                  height: 10px;
+                  border: 5px solid;
+                  border-color: transparent transparent #272d39 transparent;
+                  position: relative; }
+                  body .fb-reactions .content .reactions .reaction .angry > div:first-of-type span:first-of-type:before, body .fb-reactions .content .reactions .reaction .angry > div:first-of-type span:first-of-type:after, body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) span:first-of-type:before, body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) span:first-of-type:after {
+                    content: '';
+                    position: absolute;
+                    width: 4px;
+                    height: 4px;
+                    -webkit-border-radius: 50%;
+                            border-radius: 50%;
+                    background-color: #272d39; }
+                  body .fb-reactions .content .reactions .reaction .angry > div:first-of-type span:first-of-type:before, body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) span:first-of-type:before {
+                    top: 75%;
+                    right: -2%; }
+                  body .fb-reactions .content .reactions .reaction .angry > div:first-of-type span:first-of-type:after, body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) span:first-of-type:after {
+                    top: 74%;
+                    left: -3%; }
+                body .fb-reactions .content .reactions .reaction .angry > div:first-of-type span:last-of-type, body .fb-reactions .content .reactions .reaction .angry > div:nth-of-type(2) span:last-of-type {
+                  position: absolute;
+                  left: 45%;
+                  top: 70%;
+                  width: 10px;
+                  height: 10px;
+                  background-color: #272d39; }
+            body .fb-reactions .content .reactions .reaction .angry > div:last-of-type {
+              top: 75%;
+              left: 50%;
+              -webkit-transform: translateX(-50%);
+                  -ms-transform: translateX(-50%);
+                      transform: translateX(-50%);
+              width: 40px;
+              height: 7px;
+              -webkit-border-radius: 45%;
+                      border-radius: 45%;
+              background-color: #272d39; }
+          body .fb-reactions .content .reactions .reaction .angry:hover {
+            -webkit-animation: 4s angryAnimation5 linear infinite;
+                    animation: 4s angryAnimation5 linear infinite; }
+            body .fb-reactions .content .reactions .reaction .angry:hover > div:first-of-type, body .fb-reactions .content .reactions .reaction .angry:hover > div:nth-of-type(2) {
+              -webkit-animation: 4s angryAnimation1 linear infinite, 4s angryAnimation4 linear infinite;
+                      animation: 4s angryAnimation1 linear infinite, 4s angryAnimation4 linear infinite; }
+              body .fb-reactions .content .reactions .reaction .angry:hover > div:first-of-type span:last-of-type, body .fb-reactions .content .reactions .reaction .angry:hover > div:nth-of-type(2) span:last-of-type {
+                -webkit-animation: 4s angryAnimation2 linear infinite;
+                        animation: 4s angryAnimation2 linear infinite; }
+            body .fb-reactions .content .reactions .reaction .angry:hover > div:last-of-type {
+              -webkit-animation: 4s angryAnimation3 linear infinite, 4s angryAnimation4 linear infinite;
+                      animation: 4s angryAnimation3 linear infinite, 4s angryAnimation4 linear infinite; }
+
+@-webkit-keyframes loveAnimation {
+  0%, 100% {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1);
+            transform: translate(-50%, -50%) rotate(45deg) scale(1); }
+  50% {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1.3);
+            transform: translate(-50%, -50%) rotate(45deg) scale(1.3); } }
+
+@keyframes loveAnimation {
+  0%, 100% {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1);
+            transform: translate(-50%, -50%) rotate(45deg) scale(1); }
+  50% {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(1.3);
+            transform: translate(-50%, -50%) rotate(45deg) scale(1.3); } }
+
+@-webkit-keyframes hahaAnimation1 {
+  0%, 100% {
+    top: 29%;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  10%, 20%, 30%, 40%, 50% {
+    top: 20%;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+  15%, 25%, 35%, 45%, 55% {
+    top: 23%;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+  60%, 70%, 60%, 70%, 80%, 90% {
+    top: 36%;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+  65%, 75%, 65%, 75%, 85%, 95% {
+    top: 32%;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes hahaAnimation1 {
+  0%, 100% {
+    top: 29%;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  10%, 20%, 30%, 40%, 50% {
+    top: 20%;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+  15%, 25%, 35%, 45%, 55% {
+    top: 23%;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+  60%, 70%, 60%, 70%, 80%, 90% {
+    top: 36%;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9); }
+  65%, 75%, 65%, 75%, 85%, 95% {
+    top: 32%;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@-webkit-keyframes hahaAnimation2 {
+  0%, 100% {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1); }
+  10%, 20%, 30%, 40%, 50% {
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%) scale(0.9);
+            transform: translate(-50%, -50%) scale(0.9); }
+  15%, 25%, 35%, 45%, 55% {
+    top: 43%;
+    -webkit-transform: translate(-50%, -50%) scale(0.8);
+            transform: translate(-50%, -50%) scale(0.8); }
+  60%, 70%, 60%, 70%, 80%, 90% {
+    top: 55%;
+    -webkit-transform: translate(-50%, -50%) scale(0.9);
+            transform: translate(-50%, -50%) scale(0.9); }
+  65%, 75%, 65%, 75%, 85%, 95% {
+    top: 52%;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1); } }
+
+@keyframes hahaAnimation2 {
+  0%, 100% {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1); }
+  10%, 20%, 30%, 40%, 50% {
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%) scale(0.9);
+            transform: translate(-50%, -50%) scale(0.9); }
+  15%, 25%, 35%, 45%, 55% {
+    top: 43%;
+    -webkit-transform: translate(-50%, -50%) scale(0.8);
+            transform: translate(-50%, -50%) scale(0.8); }
+  60%, 70%, 60%, 70%, 80%, 90% {
+    top: 55%;
+    -webkit-transform: translate(-50%, -50%) scale(0.9);
+            transform: translate(-50%, -50%) scale(0.9); }
+  65%, 75%, 65%, 75%, 85%, 95% {
+    top: 52%;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1); } }
+
+@-webkit-keyframes wowAnimation1 {
+  0%, 60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  20%, 50% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg); } }
+
+@keyframes wowAnimation1 {
+  0%, 60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  20%, 50% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg); } }
+
+@-webkit-keyframes wowAnimation2 {
+  0%, 60% {
+    margin-right: 10px;
+    margin-left: 10px; }
+  20%, 50% {
+    margin-right: 30px;
+    margin-left: -10px; } }
+
+@keyframes wowAnimation2 {
+  0%, 60% {
+    margin-right: 10px;
+    margin-left: 10px; }
+  20%, 50% {
+    margin-right: 30px;
+    margin-left: -10px; } }
+
+@-webkit-keyframes wowAnimation3 {
+  0%, 60% {
+    margin-top: -15px;
+    height: 22px; }
+  20%, 50% {
+    margin-top: -22px;
+    height: 15px; } }
+
+@keyframes wowAnimation3 {
+  0%, 60% {
+    margin-top: -15px;
+    height: 22px; }
+  20%, 50% {
+    margin-top: -22px;
+    height: 15px; } }
+
+@-webkit-keyframes wowAnimation4 {
+  0%, 60% {
+    height: 42px;
+    width: 30px;
+    left: 50%; }
+  20%, 50% {
+    height: 25px;
+    width: 20px;
+    left: 40%; } }
+
+@keyframes wowAnimation4 {
+  0%, 60% {
+    height: 42px;
+    width: 30px;
+    left: 50%; }
+  20%, 50% {
+    height: 25px;
+    width: 20px;
+    left: 40%; } }
+
+@-webkit-keyframes sadAnimation1 {
+  0%, 65% {
+    top: 0%; }
+  25%, 50% {
+    top: -15%; } }
+
+@keyframes sadAnimation1 {
+  0%, 65% {
+    top: 0%; }
+  25%, 50% {
+    top: -15%; } }
+
+@-webkit-keyframes sadAnimation2 {
+  0%, 70% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  30%, 60% {
+    -webkit-transform: scale(0);
+            transform: scale(0); } }
+
+@keyframes sadAnimation2 {
+  0%, 70% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  30%, 60% {
+    -webkit-transform: scale(0);
+            transform: scale(0); } }
+
+@-webkit-keyframes sadAnimation3 {
+  0%, 70% {
+    bottom: -42%; }
+  30%, 60% {
+    bottom: -27%; } }
+
+@keyframes sadAnimation3 {
+  0%, 70% {
+    bottom: -42%; }
+  30%, 60% {
+    bottom: -27%; } }
+
+@-webkit-keyframes sadAnimation4 {
+  0%, 65% {
+    top: 50%;
+    width: 40px;
+    height: 40px; }
+  25%, 50% {
+    top: 35%;
+    width: 30px;
+    height: 30px; } }
+
+@keyframes sadAnimation4 {
+  0%, 65% {
+    top: 50%;
+    width: 40px;
+    height: 40px; }
+  25%, 50% {
+    top: 35%;
+    width: 30px;
+    height: 30px; } }
+
+@-webkit-keyframes sadAnimation5 {
+  0%, 65% {
+    top: 4%;
+    left: 5%; }
+  25%, 50% {
+    top: -1%;
+    left: 3%; } }
+
+@keyframes sadAnimation5 {
+  0%, 65% {
+    top: 4%;
+    left: 5%; }
+  25%, 50% {
+    top: -1%;
+    left: 3%; } }
+
+@-webkit-keyframes sadAnimation6 {
+  0%, 65% {
+    top: 6%;
+    right: 4%; }
+  25%, 50% {
+    top: 0%;
+    right: 2%; } }
+
+@keyframes sadAnimation6 {
+  0%, 65% {
+    top: 6%;
+    right: 4%; }
+  25%, 50% {
+    top: 0%;
+    right: 2%; } }
+
+@-webkit-keyframes angryAnimation1 {
+  0%, 75% {
+    top: 35%; }
+  25%, 50% {
+    top: 20%; } }
+
+@keyframes angryAnimation1 {
+  0%, 75% {
+    top: 35%; }
+  25%, 50% {
+    top: 20%; } }
+
+@-webkit-keyframes angryAnimation2 {
+  0%, 75% {
+    top: 70%; }
+  25%, 50% {
+    top: 95%; } }
+
+@keyframes angryAnimation2 {
+  0%, 75% {
+    top: 70%; }
+  25%, 50% {
+    top: 95%; } }
+
+@-webkit-keyframes angryAnimation3 {
+  0%, 75% {
+    height: 7px;
+    top: 75%; }
+  25%, 50% {
+    height: 30px;
+    top: 60%; } }
+
+@keyframes angryAnimation3 {
+  0%, 75% {
+    height: 7px;
+    top: 75%; }
+  25%, 50% {
+    height: 30px;
+    top: 60%; } }
+
+@-webkit-keyframes angryAnimation4 {
+  0%, 75%, 80%, 86%, 92%, 98% {
+    margin-right: 0px;
+    margin-left: 0px; }
+  76%, 78%, 88%, 90% {
+    margin-right: 7px;
+    margin-left: -7px; }
+  82%, 84%, 94%, 96% {
+    margin-right: -7px;
+    margin-left: 7px; } }
+
+@keyframes angryAnimation4 {
+  0%, 75%, 80%, 86%, 92%, 98% {
+    margin-right: 0px;
+    margin-left: 0px; }
+  76%, 78%, 88%, 90% {
+    margin-right: 7px;
+    margin-left: -7px; }
+  82%, 84%, 94%, 96% {
+    margin-right: -7px;
+    margin-left: 7px; } }
+
+@-webkit-keyframes angryAnimation5 {
+  0%, 75% {
+    background-position: 100% 120%; }
+  25%, 50% {
+    background-position: 100% 30%; } }
+
+@keyframes angryAnimation5 {
+  0%, 75% {
+    background-position: 100% 120%; }
+  25%, 50% {
+    background-position: 100% 30%; } }
+
+@-webkit-keyframes Eyelashes {
+  45%, 55% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); }
+  50% {
+    -webkit-transform: scaleY(0.05);
+            transform: scaleY(0.05); } }
+
+@keyframes Eyelashes {
+  45%, 55% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); }
+  50% {
+    -webkit-transform: scaleY(0.05);
+            transform: scaleY(0.05); } }
+    body .fb-reactions .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 15px;
+      z-index: -1; }
+      @media (max-width: 767px) {
+        body .fb-reactions .footer {
+          padding: 5px; } }
+      body .fb-reactions .footer a {
+        color: #FFF;
+        font-size: 13px; }
